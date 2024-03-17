@@ -1,5 +1,7 @@
 
 # Book Management Application
+http://localhost:8082/book-mgmt/book
+The application is not hosted yet, so you will require to have it running locally to view it on a browser
 
 ## Description
 The Book Management Application is a web-based system that allows users to manage books, book categories, and book links.
