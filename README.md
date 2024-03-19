@@ -25,9 +25,7 @@ Spring Security is implemented to secure the APIs, including JWT token handling.
 - Spring Security (JWT token handling)
 
 ## TESTING
-Postman was used for testing.
-To access the tests, open the link below in the browser. The same link can be found in the test section of the project.
-https://documenter.getpostman.com/view/32902936/2sA2xnxq53
+Postman was used for testing.The test JSON file is under the test section. API keys were stored in variables to secure tokens
 
 ## Setup
 1. Clone the repository: `git clone https://github.com/Abdul-Hussein/BookManagement.git`
