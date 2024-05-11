@@ -3,6 +3,6 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
-COPY --from=build /target/BookMgt-0.0.1-SNAPSHOT.jar demo.jar
+COPY --from=build /target/BookMgt-0.0.1-SNAPSHOT.jar BookMgt.jar
 EXPOSE 8082
-ENTRYPOINT ["java","-jar","demo.jar"]
+ENTRYPOINT ["java","-jar","BookMgt.jar"]
